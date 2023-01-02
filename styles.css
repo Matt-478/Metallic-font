@@ -9,13 +9,24 @@
     src: url("./FoodcanPersonalUseBold-nROog.ttf");
 }
 
+@font-face {
+    font-family: "Rounded Bold";
+    src: url("./CurveRoundedBold-8Jm2.ttf");
+}
+
 h2 {
     font-family: "Metallic";
-    font-size: 7em;
+    font-size: 10em;
+}
+
+.metallic-font {
+    text-align: center;
+    margin-top: 0.5em;
+    color: rgb(55, 55, 55);
 }
 
 body {
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(237, 237, 237);
 }
 
 .navbar {
@@ -31,5 +42,13 @@ body {
     width: 10em;
     height: 1.5em;
 
-    background-color: rgb(61, 61, 61);
+    /* background-color: rgb(61, 61, 61); */
+    /* border-radius: 5px; */
+}
+
+.color1 h3 {
+    color: rgb(170, 170, 170);
+    text-align: center;
+    font-family: "Rounded Bold";
+    font-size: 0.8rem;
 }
