@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Metallic";
+    src: url("./FoodcanPersonalUseBold-nROog.ttf");
+}
+
+h2 {
+    font-family: "Metallic";
+    font-size: 7em;
+}
+
 body {
     background-color: rgb(205, 205, 205);
 }
