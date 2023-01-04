@@ -25,17 +25,29 @@ h2 {
     color: rgb(55, 55, 55);
 }
 
+.metallic-top {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+}
+
 body {
     background-color: rgb(237, 237, 237);
 }
 
 .navbar {
-    display: flex;
+    display: inline-flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 
-    padding-top: 3em;
-    /* height: 5em; */
+    /* padding-top: 3em; */
+    height: 100vh;
+    width: auto;
+    
+    position: relative;
+    background-color: rgb(203, 174, 136);
 }
 
 .color1 {
