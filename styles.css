@@ -27,14 +27,20 @@ h2 {
 
 .metallic-top {
     display: block;
-    width: auto;
+    width: 100vw;
     height: 100vh;
 
-    position: fixed;
+    position: absolute;
+    background-color: rgb(140, 99, 179);
+    z-index: 2;
 }
 
 body {
     background-color: rgb(237, 237, 237);
+}
+
+.relative {
+    position: relative;
 }
 
 .navbar {
@@ -43,10 +49,10 @@ body {
     /* align-items: center; */
 
     /* padding-top: 3em; */
-    /* height: 100vh; */
-    width: auto;
+    height: 100vh;
+    width: 100vw;
     
-    position: relative;
+    position: absolute;
     background-color: rgb(203, 174, 136);
 }
 
