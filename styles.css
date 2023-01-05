@@ -19,20 +19,23 @@ h2 {
     font-size: 10em;
 }
 
-.metallic-font {
-    text-align: center;
-    margin-top: 0.5em;
-    color: rgb(55, 55, 55);
-}
 
-.metallic-top {
-    display: block;
+.metallic-top-layer {
     width: 100vw;
     height: 100vh;
 
+    display: flex;
+    align-items: center;
+
     position: absolute;
-    background-color: rgb(140, 99, 179);
     z-index: 2;
+    /* background-color: rgb(140, 99, 179); */
+}
+
+.metallic-font {
+    text-align: center;
+    /* margin-top: 0.5em; */
+    color: rgb(55, 55, 55);
 }
 
 body {
@@ -53,7 +56,7 @@ body {
     width: 100vw;
     
     position: absolute;
-    background-color: rgb(203, 174, 136);
+    /* background-color: rgb(203, 174, 136); */
 }
 
 .color1 {
