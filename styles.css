@@ -50,28 +50,47 @@ body {
     position: relative;
 }
 
-.rotate-text-parent {
-    height: 80vh;
-    width: 80vw;
-    position: relative;
+.try {
+    /* width: 50px; */
+    /* height: 40px; */
+    /* margin-top:3em; */
+    transform-origin: 90% center;              
+    position: absolute;
+    background-color: aqua;
+    animation: rotate 3s linear reverse infinite;
+    width: 30em;
+    height: 1em;
+    top: 25em;
+    left: 30em;
+}
+.try:nth-child(2) {
+    animation-delay: 0.2s;
 }
 
-.child {
-    width: 100px;
-	height: 100px;
-	offset-path: path("M200,0 A200,200 0 1,1 200,400 A200,200 0 1,1 200,0");
-    offset-path:  "d=
-M 100, 100
-    m -75, 0
-    a 75,75 0 1,0 150,0
-    a 75,75 0 1,0 -150,0";
-	offset-rotation: 0deg;
+.try:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.try:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.try:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.try:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+@keyframes rotate { 
+    100% { transform:rotate(-360deg)}
 }
 
 
 .color1 {
-    width: 10em;
-    height: 1.5em;
+    /* width: 10em;
+    height: 1.5em; */
 }
 
 .color1 h3 {
