@@ -50,38 +50,28 @@ body {
     position: relative;
 }
 
-.rotate-text {
-    display: inline-flex;
-    justify-content: space-around;
-    align-items: center;
-    /* padding-top: 3em; */
-    height: 100%;
-    width: 100%;
-    /* position: absolute; */
-    /* background-color: rgb(203, 174, 136); */
+.rotate-text-parent {
+    height: 80vh;
+    width: 80vw;
+    position: relative;
 }
 
-.rotate-text h3{
-    position: absolute;
-    animation: square 10s infinite ease
+.child {
+    width: 100px;
+	height: 100px;
+	offset-path: path("M200,0 A200,200 0 1,1 200,400 A200,200 0 1,1 200,0");
+    offset-path:  "d=
+M 100, 100
+    m -75, 0
+    a 75,75 0 1,0 150,0
+    a 75,75 0 1,0 -150,0";
+	offset-rotation: 0deg;
 }
-
-@keyframes square {
-    0%   {top: 0; left: 0}
-    25%   {top: 0; left: 100%;}
-    50%   {top: 100%; left: 100%;}
-    75%   {top: 100%; left: 0;}
-    100%  {top: 0; left: 0;}
-}
-
 
 
 .color1 {
     width: 10em;
     height: 1.5em;
-
-    /* background-color: rgb(61, 61, 61); */
-    /* border-radius: 5px; */
 }
 
 .color1 h3 {
