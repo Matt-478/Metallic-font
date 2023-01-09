@@ -72,42 +72,42 @@ body {
     /* round */ 
     offset-path:  circle(380px at 0 25em);
     
-    animation: move 40s linear infinite;
+    animation: move 10s linear infinite;
   }
 
   .mover:nth-child(2) {
-    animation-delay: ;
+    animation-delay: 1s;
   }
   .mover:nth-child(3) {
     animation-delay: 1.5s;
   }
   .mover:nth-child(4) {
-    animation-delay: 1.2s;
+    animation-delay: 2s;
   }
   .mover:nth-child(5) {
-    animation-delay: 0.8s;
+    animation-delay: 2.5s;
   }
   .mover:nth-child(6) {
-    animation-delay: 1s;
+    animation-delay: 3s;
   }
   .mover:nth-child(7) {
-    animation-delay: 1.2s;
+    animation-delay: 3.5s;
   }
 
   .mover:nth-child(8) {
-    animation-delay: 1.4s;
+    animation-delay: 4s;
   }
 
   .mover:nth-child(9) {
-    animation-delay: 1.6s;
+    animation-delay: 4.5s;
   }
 
   .mover:nth-child(10) {
-    animation-delay: 1.8s;
+    animation-delay: 5s;
   }
 
   .mover:nth-child(11) {
-    animation-delay: 2s;
+    animation-delay: 5.5s;
   }
 
   @keyframes move {
@@ -120,8 +120,16 @@ body {
         opacity: 50%
     }
 
+    50% {
+        opacity: 80%;
+    }
+
+    75% {
+        opacity: 50%;
+    }
+
     100% { 
-    opacity: 100%;
+    opacity: 0%;
     offset-distance: 100%;
     }
   }
